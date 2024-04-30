@@ -1,14 +1,15 @@
 ﻿namespace Module2HW3
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            ISweet[] sweets = {
-            new Chocolate("Mars", 20, "Dark"),
-            new Candy("Jelly Bean", 10, "Fruit"),
-            new Lollipop("Chupa Chups", 5, "Strawberry", "Red")
-        };
+            ISweet[] sweets =
+            {
+                new Chocolate("Mars", 20, "Dark"),
+                new Candy("Jelly Bean", 10, "Fruit"),
+                new Lollipop("Chupa Chups", 5, "Strawberry", "Red")
+            };
 
             Gift gift = new Gift();
 
